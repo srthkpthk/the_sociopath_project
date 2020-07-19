@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "231571527963",
+    "firebase_url": "https://the-sociopath-project.firebaseio.com",
+    "project_id": "the-sociopath-project",
+    "storage_bucket": "the-sociopath-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231571527963:android:3f32fddd43957312299bbe",
+        "android_client_info": {
+          "package_name": "srthk.pthk.the_sociopath_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231571527963-j9hfm92qhnlu90ni2lfvf014s7iqkeko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "srthk.pthk.the_sociopath_project",
+            "certificate_hash": "6bdc261295448df1cb4a6e43255667dbe9c33edd"
+          }
+        },
+        {
+          "client_id": "231571527963-vm4s2674iqf6jdlb6g2euf9terehc9gd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgEA3W8rrtJJgmQY-4vJewbNmB8SfRYdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231571527963-vm4s2674iqf6jdlb6g2euf9terehc9gd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
