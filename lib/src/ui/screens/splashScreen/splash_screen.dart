@@ -28,11 +28,11 @@ class _SplashScreenState extends State<SplashScreen> {
         ),
       );
 
-  checkUser() => FirebaseAuth.instance.onAuthStateChanged.listen((event) {
-        if (event != null) {
-          Navigator.pushReplacementNamed(context, '/homeScreen');
-        } else {
-          Navigator.pushReplacementNamed(context, '/signUpScreen');
-        }
-      });
+  checkUser() async {
+    if (await FirebaseAuth.instance.currentUser() != null) {
+      Navigator.pushReplacementNamed(context, '/homeScreen');
+    } else {
+      Navigator.pushReplacementNamed(context, '/signUpScreen');
+    }
+  }
 }
